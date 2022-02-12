@@ -1,0 +1,66 @@
+/* Write all your custom CSS below this line  */
+
+body {
+    margin: 0;
+    background-color: rgb(235, 165, 188);
+    
+}
+
+header{
+background-color: rgb(230, 180, 197);
+text-align: center;
+margin-top: 0em;
+}
+
+nav{
+    font-family: 'Codystar',cursive;
+}
+
+h1{
+    font-family: 'Codystar', cursive;
+    color: lavenderblush;
+}
+h2{
+    font-family: 'Inconsolata', monospace;
+    font-size: medium;
+
+}
+
+h3{
+    background-color: rgb(230, 180, 197);
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    max-width: 400px;
+    border-left: 10px solid lavender;
+    margin: 10px auto;
+    text-align: center;
+  
+}
+
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p{
+    background-color: lavenderblush;
+    font-family: 'Inconsolata', monospace;
+    border-left: 10px solid lavender;
+    text-align: center;
+    max-width: 400px;
+    padding: 20px; 
+    margin: 20px auto;
+    
+   
+
+}
+section {
+    
+    
+
+}
+footer{
+background-color: lavender !important;
+}
