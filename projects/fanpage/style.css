@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    background-color: rgb(235, 165, 188);
+    background-color: white;
     
 }
 
@@ -28,12 +28,12 @@ h2{
 
 h3{
     background-color: rgb(230, 180, 197);
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Codystar', cursive;
     font-size: 30px;
-    max-width: 400px;
     border-left: 10px solid lavender;
-    margin: 10px auto;
     text-align: center;
+    margin: 100px 100px 0px 100px
+    
   
 }
 
@@ -49,9 +49,8 @@ p{
     font-family: 'Inconsolata', monospace;
     border-left: 10px solid lavender;
     text-align: center;
-    max-width: 400px;
     padding: 20px; 
-    margin: 20px auto;
+    margin: 0px 100px 100px 100px
     
    
 
@@ -61,6 +60,10 @@ section {
     
 
 }
+.footer-text{
+    background: lavender;
+}
+
 footer{
 background-color: lavender !important;
 }
