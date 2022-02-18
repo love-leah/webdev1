@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    background-color: #f7f6cf;;
+    background-color: #f7f6cf;
     
 }
 
@@ -19,6 +19,14 @@ nav{
 a:link{
     color:#E6B12F;
 
+}
+
+a:visited{
+    color:#BF4F26;
+}
+
+a:hover{
+    color:#cbcf4c ;
 }
 
 h1{
@@ -67,11 +75,9 @@ p{
    
 
 }
-section {
-    
-    
 
-}
+      
+
 .footer-text{
     background: #cbcf4c;
 }
