@@ -1,0 +1,12 @@
+@font-face {
+    font-family:"CutiePop";
+    src: url() format("truetype");
+  }
+
+  h1{
+      font-family: 'CutiePop';
+  }
+
+  h2{
+    font-family: 'CutiePop';
+  }
