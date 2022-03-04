@@ -1,12 +1,16 @@
 @font-face {
-    font-family:"CutiePop";
-    src: url() format("truetype");
-  }
+    font-family: 'Cutie Pop';
+    src: url('CutiePop.eot');
+    src: url('CutiePop.eot?#iefix') format('embedded-opentype'),
+        url('CutiePop.woff2') format('woff2'),
+        url('CutiePop.woff') format('woff'),
+        url('CutiePop.ttf') format('truetype'),
+        url('CutiePop.svg#CutiePop') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 
-  h1{
-      font-family: 'CutiePop';
-  }
-
-  h2{
-    font-family: 'CutiePop';
-  }
+h1{
+    font-family: 'Cutie Pop';
+}
