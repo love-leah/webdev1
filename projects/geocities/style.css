@@ -1,19 +1,101 @@
 @font-face {
     font-family: 'Cutie Pop';
     src: url('CutiePop.eot');
-    src: url('CutiePop.eot?#iefix') format('embedded-opentype'),
-        url('CutiePop.woff2') format('woff2'),
-        url('CutiePop.woff') format('woff'),
-        url('CutiePop.ttf') format('truetype'),
-        url('CutiePop.svg#CutiePop') format('svg');
+    src: url('fonts/CutiePop.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CutiePop.woff2') format('woff2'),
+        url('fonts/CutiePop.woff') format('woff'),
+        url('fonts/CutiePop.ttf') format('truetype'),
+        url('fonts/CutiePop.svg#CutiePop') format('svg');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
+ body{
+     background-image: url(images/sparkle.jpeg);
+ }
 
-h1{
-    font-family: 'Cutie Pop';
-}
+
 h2{
     font-family: 'Cutie Pop';
+    font-size: 3rem;
+    color: whitesmoke;
+    text-shadow: 2px 2px pink;
+    padding: 2rem;
+ 
+}
+
+h3{
+    padding: 2em;
+}
+
+#quote{
+    display: block;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    width: 40%;
+    padding-right: 5em;
+
+}
+.sidenav{
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0em;
+    left: 0em;
+    background: magenta;
+    overflow-x: hidden;
+    padding: 4pt 0;
+        
+}
+
+.sidenav a{
+    padding:6px 8px 6px 16px ;
+    text-align: left;
+}
+
+.main{
+    margin-left: 20%;
+}
+a{
+    color: purple;
+}
+
+a:hover{
+    color: whitesmoke;
+}   
+
+.glitter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.intro {
+    padding: 15em;
+   
+}
+section{
+  margin: 0 auto;
+  max-width: 80%;
+
+}
+
+.diva{
+    margin: 5em;
+    border: .5em solid white;
+    box-shadow: 3px 3px pink;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    padding: 3em;
+    
+}
+.foot img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+   
 }
