@@ -28,38 +28,45 @@ h3{
     padding: 2em;
 }
 
-#quote{
+a img{
     display: block;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-    width: 40%;
-    padding-right: 5em;
+    margin-left: auto  ;
+    margin-right: auto;
+    width: 50%; 
 
 }
-.sidenav{
-    width: 20%;
-    height: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0em;
-    left: 0em;
-    background: magenta;
-    overflow-x: hidden;
-    padding: 4pt 0;
-        
+
+#quote{
+    display: block;
+    margin: 25% auto 0 auto ;
+    width: 50%;
+   position: absolute;   
+
+}
+       
+
+.sidenav {
+  text-align: center;
+  display: inline-block;
+ padding: 14px 25px;
+ background-image: url(images/pinkbg.jpeg);
+ position: fixed;
+ margin-top: 2%;
+ margin-left: 2%;
+ 
+    
 }
 
 .sidenav a{
-    padding:6px 8px 6px 16px ;
-    text-align: left;
+    color: whitesmoke;
+    margin-bottom: 5em;
 }
 
 .main{
-    margin-left: 20%;
+    margin-left: 10%;
 }
-a{
-    color: purple;
-}
+  
+
 
 a:hover{
     color: whitesmoke;
@@ -72,7 +79,7 @@ a:hover{
     width: 100%;
 }
 .intro {
-    padding: 15em;
+    padding: 5em;
    
 }
 section{
@@ -85,6 +92,13 @@ section{
     margin: 5em;
     border: .5em solid white;
     box-shadow: 3px 3px pink;
+}
+
+.diva img{
+    display: block;
+    margin: auto;
+    height: 20%;
+    
 }
 p{
     font-family: 'Times New Roman', Times, serif;
