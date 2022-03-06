@@ -27,7 +27,8 @@ h2{
 h3{
     font-family: 'Cutie Pop';
     padding: 2em;
-    margin: auto;
+    margin: 0 auto;
+    
 }
 
 p{
@@ -128,4 +129,7 @@ p img{
     margin-right: auto;
     width: 30%;
    
+}
+img {
+    display: block;
 }
