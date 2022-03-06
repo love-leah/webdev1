@@ -98,7 +98,7 @@ section{
 }
 
 .diva{
-    
+    margin: auto;
 }
 
 .diva img{
@@ -115,6 +115,12 @@ section{
     border: .5em solid white;
     box-shadow: 3px 3px pink;
     
+}
+
+p img{
+    size: 2%;
+    margin: 0;
+    float: left;
 }
 .foot img{
     display: block;
