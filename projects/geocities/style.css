@@ -26,7 +26,8 @@ h2{
 
 h3{
     font-family: 'Cutie Pop';
-    padding: 2em;
+    color: lightcyan;
+    padding: 3em;
     margin: 0 auto;
     
 }
@@ -39,9 +40,9 @@ p{
 
 a img{
     display: block;
-    margin-left: auto  ;
+    margin-left: auto ;
     margin-right: auto;
-    width: 50%;
+    width: 60%;
   
 
 }
@@ -131,5 +132,5 @@ p img{
    
 }
 img {
-    display: block;
-}
+    flex: auto;
+    }
