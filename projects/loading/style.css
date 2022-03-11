@@ -1,68 +1,104 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-flexbox;
+    margin: 0 auto;
+    background-color: lavenderblush;
+    padding: 10em;
 }
 
-div {
+a:hover{
+    color: seagreen;
+}
+
+.done {
     text-align: center;
+    animation: fadein 20s;
+ }
+ 
+ @keyframes fadein {
+     0% {opacity: 0;}
+     65% {opacity: 0;}
+     100% {opacity: 1;}
+ }
+
+#letters {
+    text-align: center;
+    animation: hide 20s  1 forwards;
+   
+}
+
+
+@keyframes hide {
+    100% {opacity: 0;}
 }
 
 
 .L {
-    animation: L 10s 1 ;
+    animation: L 20s 1  forwards;
 }
 
 @keyframes L {
 0% {color:#eeaeca;}
+100% {color:#eeaeca;}
 
 }
 
 .O{
-    animation: O 10s 1 forwards; 
+    animation: O 20s 1 forwards; 
 }
 
 @keyframes O {
     15% {color:#d8abca;}
+    100% {color:#d8abca;}
 }
 
 .A{
-    animation: A 10s 1 forwards; 
+    animation: A 20s 1 forwards; 
 }
 
 @keyframes A {
     30% {color: #c3a8ca;}
+    100% {color: #c3a8ca;}
 }
 
 .D{
-    animation: D 10s 1 forwards; 
+    animation: D 20s 1 forwards; 
 }
 
 @keyframes D {
     45% {color: #aca5ca;}
+    100% {color: #aca5ca;}
 }
 
 .I{
-    animation: I 10s 1 forwards; 
+    animation: I 20s 1 forwards; 
 }
 
 @keyframes I {
     50% {color: #94a2ca;}
+    100% {color: #94a2ca;}
 }
 
 .N{
-    animation: N 10s 1 forwards; 
+    animation: N 20s 1 forwards; 
 }
 
 @keyframes N {
     65% {color: #7b9fc9;}
+    100% {color: #7b9fc9;}
 }
 
 .G{
-    animation: G 10s 1 forwards; 
+    animation: G 20s 1 forwards; 
 }
 
 @keyframes G {
     100% {color: #7b9fc9;}
 }
+
+
+
+ 
 
 
 
