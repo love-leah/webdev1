@@ -1,3 +1,82 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+div {
+    text-align: center;
+}
+
+
+.L {
+    animation: L 10s 1 ;
+}
+
+@keyframes L {
+0% {color:#eeaeca;}
+
+}
+
+.O{
+    animation: O 10s 1 forwards; 
+}
+
+@keyframes O {
+    15% {color:#d8abca;}
+}
+
+.A{
+    animation: A 10s 1 forwards; 
+}
+
+@keyframes A {
+    30% {color: #c3a8ca;}
+}
+
+.D{
+    animation: D 10s 1 forwards; 
+}
+
+@keyframes D {
+    45% {color: #aca5ca;}
+}
+
+.I{
+    animation: I 10s 1 forwards; 
+}
+
+@keyframes I {
+    50% {color: #94a2ca;}
+}
+
+.N{
+    animation: N 10s 1 forwards; 
+}
+
+@keyframes N {
+    65% {color: #7b9fc9;}
+}
+
+.G{
+    animation: G 10s 1 forwards; 
+}
+
+@keyframes G {
+    100% {color: #7b9fc9;}
+}
+
+
+
+
+#circle{
+    margin: auto;
+    background-color: midnightblue;
+    border-radius: 50%;
+    width: 30rem;
+    height: 30rem;
+    
+
+}
+
+
+
+
