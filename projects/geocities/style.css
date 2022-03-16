@@ -19,7 +19,7 @@ h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3rem;
     color: whitesmoke;
-    text-shadow: 2px 2px pink;
+    text-shadow: .05em 0.05em pink;
     padding: 2rem;
  
 }
@@ -59,7 +59,7 @@ a img{
 .sidenav {
   text-align: center;
   display: inline-block;
- padding: 14px 25px;
+ padding: 0.875em 1.563em;
  background-image: url(images/pinkbg.jpeg);
  position: fixed;
  margin-top: 2%;
@@ -115,7 +115,7 @@ section{
     padding: 3em;
     margin: 5em;
     border: .5em solid white;
-    box-shadow: 3px 3px pink;
+    box-shadow: 0.188em 0.188em pink;
     
 }
 

@@ -109,22 +109,60 @@ a:hover{
 
 
  
-
+.moon{
+    display: block;
+    padding: 10em;
+    margin: 10 ;
+}
 
 
 
 #circle{
     margin: auto;
-    background-color: midnightblue;
     border-radius: 50%;
-    width: 30rem;
-    height: 30rem;
-    
-    
+    width: 10em;
+    height: 10em;
+    animation: shadow 5s infinite  forwards, color 5s infinite forwards;
+}
+
+@keyframes shadow{
+0% {box-shadow: -3px 0px 41px 16px rgb(0, 0, 0) inset;}
+
+
+12% {box-shadow: 50px 3px 10px rgb(0, 0, 255) inset;}
+
+
+24% {box-shadow: 50px 0px 25px 2px rgb(0, 0, 5) inset;}
+
+
+36% {box-shadow: 30px -2px 12px 2px rgb(0, 0, 8) inset;}
+
+48% {box-shadow: 1px -2px 10px 2px rgb(0, 0, 8) inset;}
+
+
+60% {box-shadow: -30px 2px 10px 4px rgb(0, 0, 8) inset;}
+
+72% {box-shadow: -50px 0px 25px 2px rgb(0, 0, 0) inset;}
+
+84% {box-shadow: -50px 2px 10px 4px rgb(0, 0, 255) inset;}
+
 
 }
 
+@keyframes color {
+    0% {background-color: black;}
+    12%{background-color: black;}
+    24%{background-color: blue;}
+    36%{background-color: blue;}
+    48%{background-color: blue;}
+    72% {background-color: black;}
+    60%{background-color: blue;}
+    84% {background-color: black;}
+    100%{background-color: blue;}
+    
 
+
+}
 
 
 
