@@ -2,7 +2,7 @@ body{
     font-family: 'Exo', sans-serif; ;
     display: block;
     margin: 0 auto;
-    background-color: lavenderblush;
+    background-color: #aca5ca;
     padding: 10em;
 }
 
@@ -13,7 +13,7 @@ footer{
 
 .menu{
     display: block;
-    background-color: rgb(192, 133, 192);
+    background-color: #995aa8;;
     padding: 2rem;
     text-align: center;
 }
@@ -45,6 +45,8 @@ a:hover{
 #letters {
     text-align: center;
     animation: hide 20s  1 forwards;
+    font-weight: 800;
+    font-style: bold;
    
 }
 
@@ -127,7 +129,6 @@ a:hover{
 }
 
 
-
 #circle{
     margin: auto;
     border-radius: 50%;
@@ -135,6 +136,7 @@ a:hover{
     height: 15em;
     animation: shadow 3s infinite  forwards, color 3s infinite forwards;
 }
+
 
 @keyframes shadow{
 0% {box-shadow: -0.188em 0em 2.563em 1em rgb(0, 0, 0) inset;}

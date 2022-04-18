@@ -1,0 +1,14 @@
+body{
+    background-color: lavender;
+}
+
+a{
+    color: black;
+}
+
+.container{
+margin: 0 auto;
+background-color: violet;
+max-width: 20rem;
+max-height: 50rem;
+}
