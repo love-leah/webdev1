@@ -1,0 +1,84 @@
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: salmon;
+    
+}
+
+.phone{
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  margin: 25%;
+  max-width: 50rem;
+
+}
+
+.app {
+    position: relative; 
+    height: 100%;
+    border-radius: 25%;
+    object-fit: cover;
+    margin: 2rem;
+    
+  }
+
+  .app img{
+    margin: 2rem;  
+    height: 5rem;
+    max-width: 5rem;
+    object-fit: cover;
+    border-radius: 10%;
+
+}
+
+    .app img:hover{
+        max-width: 100%;
+        border-radius: 0%;
+        
+    }
+
+
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    max-width: 100%;
+    opacity: 0%;
+    transition: .5s ease;
+    background-color: whitesmoke;
+  }
+  
+  .app:hover .overlay {
+    opacity: 75%;
+    border-radius: 50%;
+    max-width: 100%;
+    
+    
+   
+    
+  }
+  
+  .text {
+    color: cadetblue;
+    font-size: 20px;
+    position: absolute;
+    opacity: 100%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }

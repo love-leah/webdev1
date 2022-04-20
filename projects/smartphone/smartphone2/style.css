@@ -1,0 +1,70 @@
+header{
+margin: 0 ;
+}
+
+
+.wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 177, 133);
+    max-height: 70rem;
+}
+
+.phone{
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    margin: 25%;
+    max-width: 50rem;
+}
+
+.row{
+display: flex;
+flex-direction: row;
+max-width: 2rem;
+}
+
+.app img{
+    margin: 2rem;  
+    height: 5rem;
+    max-width: 5rem;
+    object-fit: cover;
+    border-radius: 10%;
+
+}
+
+
+
+.app img:hover{
+    max-width: 100%;
+    border-radius: 0%;
+    
+}
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+

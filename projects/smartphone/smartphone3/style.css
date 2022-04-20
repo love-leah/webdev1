@@ -1,0 +1,174 @@
+.wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 177, 133);
+    max-height: 70rem;
+}
+
+.phone{
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    margin: 20%;
+    max-width: 50rem;
+}
+
+.row{
+display: flex;
+flex-direction: row;
+}
+
+
+.apps:hover{
+    width: 100%;
+    height: 100%;
+
+}
+
+.app1{
+    margin: 2rem;  
+    height: 5rem;
+    width: 5rem;
+    background-image: url(imgs/aj.jpg);
+    background-size: cover;
+}
+.app2{
+    margin: 2rem;  
+    height: 5rem;
+    width: 5rem;
+  background-image: url(imgs/aw.png);
+  background-size: contain;
+}
+.app3{
+    margin: 2rem;  
+    height: 5rem;
+    width: 5rem;
+  background-image: url(imgs/dc.jpeg);
+  background-size: contain;
+}
+.app4{
+    margin: 2rem;  
+    height: 5rem;
+    width: 5rem;
+  background-image: url(imgs/dm.jpeg);
+  background-size: cover;
+}
+.app5{
+    margin: 2rem;  
+    height: 5rem;
+    width: 5rem;
+  background-image: url(imgs/ek.jpeg);
+  background-size: cover;
+}
+.app6{
+    margin: 2rem;  
+    height: 5rem;
+    width: 5rem;
+  background-image: url(imgs/gu.jpeg);
+  background-size: cover;
+}
+.app7{
+    margin: 2rem;  
+    height: 5rem;
+    width: 5rem;
+  background-image: url(imgs/il.jpeg);
+  background-size: contain;
+}
+.app8{
+    margin: 2rem;  
+    height: 5rem;
+    width: 5rem;
+  background-image: url(imgs/jw.jpeg);
+  background-size: contain;
+
+}
+.app9{
+    margin: 2rem;  
+    height: 5rem;
+    width: 5rem;
+  background-image: url(imgs/kl.jpg);
+  background-size: contain;
+}
+.app10{
+    margin: 2rem;  
+    height: 5rem;
+    width: 5rem;
+  background-image: url(imgs/ln.jpeg);
+  background-size: contain;
+}
+.app11{
+    margin: 2rem;  
+    height: 5rem;
+    width: 5rem;
+  background-image: url(imgs/ls.jpg);
+  background-size: cover;
+}
+.app12{
+    margin: 2rem;  
+    height: 5rem;
+    width: 5rem;
+  background-image: url(imgs/m.jpeg);
+  background-size: contain;
+}
+.app13{
+    margin: 2rem;  
+    height: 5rem;
+    width: 5rem;
+  background-image: url(imgs/mh.jpeg);
+  background-size: contain;
+}
+.app14{
+    margin: 2rem;  
+    height: 5rem;
+    width: 5rem;
+  background-image: url(imgs/mt.jpeg);
+  background-size: cover;
+}
+.app15{
+    margin: 2rem;  
+    height: 5rem;
+    width: 5rem;
+  background-image: url(imgs/nb.jpeg);
+  background-size: contain;
+}
+.app16{
+    margin: 2rem;  
+    height: 5rem;
+    width: 5rem;
+  background-image: url(imgs/rh2.jpg);
+  background-size: contain;
+}
+.app17{
+    margin: 2rem;  
+    height: 5rem;
+    width: 5rem;
+  background-image: url(imgs/rh.jpg);
+  background-size: cover;
+}
+.app18{
+    margin: 2rem;  
+    height: 5rem;
+    width: 5rem;
+  background-image: url(imgs/ss.png);
+  background-size: cover;
+}
+.app19{
+    margin: 2rem;  
+    height: 5rem;
+    width: 5rem;
+  background-image: url(imgs/vg.jpeg);
+  background-size: cover;
+}
+.app20{
+    margin: 2rem;  
+    height: 5rem;
+    width: 5rem;
+  background-image: url(imgs/zh.jpeg);
+  background-size: cover;
+}
+
+
+
+
+
