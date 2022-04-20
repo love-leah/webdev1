@@ -1,22 +1,22 @@
-header{
-margin: 0 ;
-}
+/*i fucked something up here bc the previiew did not look like that before but i cant tell what's wrong exactly. the appss were inside of the phone before*/
+
 
 
 .wrapper{
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(238, 177, 133);
-    max-height: 70rem;
+    background-color: rgb(233, 220, 212);
 }
 
 .phone{
     background-color: cadetblue;
     display: flex;
     flex-direction: column;
-    margin: 25%;
+    margin: 20%;
     max-width: 50rem;
+  
+    
 }
 
 .row{

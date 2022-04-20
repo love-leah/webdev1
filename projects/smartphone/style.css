@@ -1,4 +1,4 @@
-
+/*I think I'm struggling to make the phone part responsive because the apps in this one are images in the html*/
 .row{
     display: flex;
     flex-direction: row;
@@ -17,7 +17,8 @@
   display: flex;
   flex-direction: column;
   margin: 25%;
-  max-width: 50rem;
+  max-width: 50%;
+  min-width: 50em;
 
 }
 
