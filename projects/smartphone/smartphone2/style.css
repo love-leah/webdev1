@@ -2,18 +2,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: sienna;
 }
 
 .phone{
     display: flex;
     flex-direction: column;
     background-color: cornflowerblue;
+    margin: 15%;
     
 }
 
 .row{
     display: flex;
     flex-direction: row;
+    margin: auto;
     
 }
 
@@ -26,6 +29,12 @@ img{
     position: relative;
     display: flex;
     flex-wrap: wrap;
+}
+
+
+img:hover{
+    transform: scale(2,2);
+    width: auto;
 }
 
 
