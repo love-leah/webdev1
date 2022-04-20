@@ -1,44 +1,40 @@
-/*i fucked something up here bc the previiew did not look like that before but i cant tell what's wrong exactly. the appss were inside of the phone before*/
-
-
-
 .wrapper{
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(233, 220, 212);
 }
 
 .phone{
-    background-color: cadetblue;
     display: flex;
     flex-direction: column;
-    margin: 20%;
-    max-width: 50rem;
-  
+    background-color: cornflowerblue;
     
 }
 
 .row{
-display: flex;
-flex-direction: row;
-max-width: 2rem;
+    display: flex;
+    flex-direction: row;
+    
 }
 
-.app img{
-    margin: 2rem;  
+
+img{
+    margin: 2rem;
     height: 5rem;
-    max-width: 5rem;
+    width: 5rem;
     object-fit: cover;
-    border-radius: 10%;
-
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
-
-.app img:hover{
-    max-width: 100%;
-    border-radius: 0%;
+.app{
+    margin: 2%;
+    object-fit: cover;
+    display: flex;
+    position: relative;
+    
     
 }
 
