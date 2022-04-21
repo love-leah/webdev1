@@ -1,0 +1,170 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 177, 133);
+    max-height: 70rem;
+  }
+  
+  .phone {
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    margin: 20%;
+    max-width: 50rem;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+
+  .overlay p{
+    text-align: center;
+    margin-top: 35%;
+  }
+  
+  .overlay{
+    position: absolute;
+      z-index: 2;
+      top: 0;
+      opacity: 0;
+      color: #fff;
+      width: 100%;
+      height: 100%;
+      transition: .5s ease;
+      background-color: #2cbdec;
+  }
+  .apps:hover .overlay{
+    opacity:0.8;
+  }
+  
+
+  
+  .app1 {
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(imgs/aj.jpg);
+    background-size: cover;
+  }
+  .app2 {
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(imgs/aw.png);
+    background-size: cover;
+  }
+  .app3 {
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(imgs/dc.jpeg);
+    background-size: cover;
+  }
+  .app4 {
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(imgs/dm.jpeg);
+    background-size: cover;
+  }
+  .app5 {
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(imgs/ek.jpeg);
+  }
+  .app6 {
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(imgs/gu.jpeg);
+  }
+  .app7 {
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(imgs/il.jpeg);
+  }
+  .app8 {
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(imgs/jw.jpeg);
+  }
+  .app9 {
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(imgs/kl.jpg);
+  }
+  .app10 {
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(imgs/ln.jpeg);
+  }
+  .app11 {
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(imgs/ls.jpg);
+  }
+  .app12 {
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(imgs/m.jpeg);
+  }
+  .app13 {
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(imgs/mh.jpeg);
+  }
+  .app14 {
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(imgs/mt.jpeg);
+  }
+  .app15 {
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(imgs/nb.jpeg);
+  }
+  .app16 {
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(imgs/rh2.jpg);
+  }
+  .app17 {
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(imgs/rh.jpg);
+  }
+  .app18 {
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(imgs/ss.png);
+  }
+  .app19 {
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(imgs/vg.jpeg);
+  }
+  .app20 {
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(imgs/zh.jpeg);
+  }
+  

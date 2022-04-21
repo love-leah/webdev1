@@ -1,4 +1,4 @@
-/*i want to do tooltips for each of the apps but it seems like i can't because the image is in css and not html*/
+
 
 
 .wrapper{
@@ -27,6 +27,10 @@ flex-direction: row;
 .apps{
 border-radius: 20%;    
 
+}
+
+.row{
+  background-size: cover;
 }
 
 
