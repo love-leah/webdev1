@@ -1,0 +1,74 @@
+body{
+background-color: #8B3D36;
+}
+
+.about, .work{
+    display: block;
+    background-color:#7A223A ;
+    margin: 10%;
+    max-height: 70%;
+}
+
+.work{
+    height: 25em;
+    overflow-y: auto;
+    margin-top: 0%;
+}
+
+
+.header{
+    display: block;
+    background-color:#7A223A;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15%;
+}
+
+h1{
+    
+    text-align: center;
+    color: #DE4097;
+    padding: 3%;
+}
+
+p{
+    color: whitesmoke;
+    padding: 10%;
+}
+
+.item-community, .item-music, .item-audio, .item-people, .item-art{
+    color: whitesmoke;
+    padding: 3%;
+    text-align: center;
+    
+}
+
+    .item-community{
+        background-color: thistle;
+    }
+
+    .item-audio{
+        background-color: tomato;
+    }
+
+    .item-art{
+        background-color: peachpuff;
+    }
+
+    .item-music{
+        background-color: violet;
+
+    }
+
+    .item-people{
+        background-color: palevioletred;
+    }
+
+a{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+a:hover{
+    color: #de4097;
+}
