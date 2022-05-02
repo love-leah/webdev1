@@ -2,6 +2,8 @@ body{
 background-color: #8B3D36;
 }
 
+
+
 .about, .work{
     display: block;
     background-color:#7A223A ;
@@ -89,6 +91,7 @@ span{
     display: inline-flex; 
     text-align: center ;
     color: navy;
+   
     
 }
 
