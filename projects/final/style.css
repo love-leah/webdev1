@@ -22,6 +22,7 @@ background-color: #8B3D36;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 15%;
+    
 }
 
 h1{
@@ -40,6 +41,10 @@ p{
     color: whitesmoke;
     padding: 3%;
     text-align: center;
+    position: static;
+    overflow: hidden;
+    display: block;
+      
     
 }
 
@@ -65,10 +70,48 @@ p{
     }
 
 a{
-    padding-left: 20%;
-    padding-right: 20%;
+    
+    color: aliceblue;
+    vertical-align: baseline;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    
+    
 }
 
 a:hover{
     color: #de4097;
+}
+
+span{
+    float: inline-start;
+    display: inline-flex; 
+    text-align: center ;
+    color: navy;
+    
+}
+
+div{
+    vertical-align: baseline;
+}
+
+
+
+@media screen and (max-width: 700px){
+  
+
+    a{
+        display: block;
+    }  
+
+    span{
+        display: block;
+    }
+    .about{
+    width: inherit;
+    }
+
+
+
 }
